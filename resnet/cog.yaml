@@ -1,6 +1,10 @@
 build:
-  python_version: "3.8"
+  python_version: "3.10.13"
   python_packages:
-    - "pillow==8.3.1"
-    - "tensorflow==2.5.0"
+    - "pillow>=8.3.1"
+    - "tensorflow>=2.5.0"
+    - "flask"
+    - "redis"
+    - "cog==0.8.6"
+    - "fastapi==0.98.0"
 predict: "predict.py:Predictor"
