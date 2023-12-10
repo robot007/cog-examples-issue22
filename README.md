@@ -1,4 +1,6 @@
 # Cog example models
+This repo is a Bug fix for issue #22 from https://github.com/replicate/cog-examples/issues/22
+
 
 This repo contains example machine learning models you can use to try out [Cog](https://github.com/replicate/cog).
 
